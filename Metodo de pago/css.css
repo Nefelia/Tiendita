@@ -1,0 +1,672 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.uno {
+  display: flex;
+  width: 100%;
+  height: 15rem;
+  justify-content: center;
+  background-image: url(./Img/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.uno h1 {
+  font-size: 50px;
+  padding-top: 50px;
+}
+.dos {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 5rem;
+}
+.backbtn{
+  background-color:#33CC2B; 
+  border: none; 
+  width: 60px; 
+  height: 60px; 
+  border-radius: 5px; 
+  border-bottom-right-radius: 25px;
+}
+.PRODUCTOS {
+  background-color: #80e1e8;
+  border-radius: 15px;
+  height: 26rem;
+  width: 19.5rem;
+  margin: 10px;
+}
+  .hernan {
+    width: 60px; 
+    border-radius: 50%;
+  }
+  .coscu {
+    width: 50px; 
+    border-radius: 50%;
+  }
+  .aquira {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+  }
+  .ikal {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+  }
+.peluche {
+  position: relative;
+  background: white;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  width: 16rem;
+  height: 4rem;
+  border-radius: 10px;
+}
+  .peluche h5 {
+    position: absolute;
+    left: 23%;
+    top: 10%;
+    color: #ed5858;
+    font-weight: 600;
+  }
+  .peluche .UN {
+    position: absolute;
+    top: 35px;
+    left: 62px;
+    font-size: x-small;
+  }
+  .peluche .precio {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-size: x-small;
+  }
+  .peluche i {
+    position: absolute;
+    left: 15rem;
+    bottom: 4rem;
+  }
+.PRODUCTOS .titulo {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.PAGO {
+  background-color: #80e1e8;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 15px;
+  margin: 10px;
+  padding-top: 15px;
+}
+.factor {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: white;
+  margin-left: 30px;
+  margin-top: 15px;
+  padding: 5px;
+  width: 16rem;
+  height: 2.1rem;
+  border-radius: 10px;
+}
+  .factor h6 {
+    color: #ed5858;
+    font-weight: bold;
+  }
+  .factor p {
+    font-size: small;
+  }
+.pagos {
+  background: white;
+  color: #ed5858;
+  margin-left: 30px;
+  margin-top: 15px;
+  padding: 8px;
+  width: 16rem;
+  height: 4rem;
+  border-radius: 10px;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+  .visa {
+    width: 3rem; 
+    height: 1rem; 
+    cursor: pointer;
+  }
+  .master {
+    width: 3rem; 
+    height: 1.8rem; 
+    cursor: pointer;
+  }
+  .amex {
+    width: 3rem; 
+    height: 2rem; 
+    cursor: pointer;
+  }
+  .gana{
+    width: 3.4rem; 
+    height: 1.4rem; 
+    cursor: pointer;
+  }
+.boton {
+  position: relative;
+}
+.comprar {
+  position: absolute;
+  width: 8rem;
+  bottom: 5rem;
+  right: 23%;
+  font-size: large;
+  font-weight: bold;
+}
+/* Extra Small */
+@media (max-width: 576px) {
+  .uno {
+    height: 3rem;
+  }
+  .uno h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 8px;
+  }
+  .dos{
+    gap: 10px;
+  }
+  .backbtn{
+    width: 40px; 
+    height: 40px; 
+    border-radius: 10px; 
+    border-bottom-right-radius: 20px;
+  }
+  .backbtn i {
+    font-size: 1.5rem;
+  }
+  .PRODUCTOS {
+    border-radius: 15px;
+    height: 22rem;
+    margin: 0;
+  }
+    .hernan {
+      padding-top: 5px;
+    }
+    .coscu {
+      padding-top: 10px;
+      padding-left: 2px;
+    }
+    .aquira {
+      margin-top: 8px;
+      margin-left: 3px;
+    }
+    .ikal {
+      margin-top: 8px;
+      margin-left: 3px;
+    }
+  .peluche {
+    margin-left: 8%;
+    margin-top: 8px;
+    padding: 0;
+    width: 14rem;
+    height: 4rem;
+  }
+    .peluche h5 {
+      font-size: medium;
+      left: 25%;
+      top: 10%;
+    }
+    .peluche .UN {
+      top: 30px;
+      font-weight: bold;
+    }
+    .peluche .precio {
+      right: 15px;
+      bottom: 0;
+      top: 2.6rem;
+      font-weight: bold;
+    }
+    .peluche i {
+      left: 94%;
+      bottom: 70%;
+      font-size: 2rem;
+    }
+  .PRODUCTOS .titulo {
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  .PAGO {
+    height: 22rem;
+    margin: 0px;
+    padding-top: 15px;
+  }
+  .factor {
+    margin-left: 4%;
+    margin-top: 10px;
+    padding: 5px;
+    width: 15rem;
+  }
+    .factor h6 {
+      font-size: small;
+      font-weight: 800;
+      padding-top: 4px;
+    }
+  .pagos {
+    margin-left: 4%;
+    margin-top: 15px;
+    padding: 5px;
+    width: 15rem;
+    height: 4rem;
+  }
+  .img {
+    gap: 8px;
+  }
+    .visa {
+      width: 2.9rem; 
+      height: 0.9rem; 
+    }
+    .master {
+      width: 2.9rem; 
+      height: 1.7rem; 
+    }
+    .amex {
+      width: 2.9rem; 
+      height: 1.9rem; 
+    }
+    .gana{
+      width: 3.3rem; 
+      height: 1.3rem; 
+    }
+  .comprar {
+    width: 10rem;
+    bottom: 15px;
+    right: 30%;
+  }
+}
+/* Medium */
+@media (min-width: 768px) and (max-width: 992px) {
+  .uno {
+    height: 7rem;
+  }
+  .uno h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  .dos{
+    gap: 10px;
+  }
+  .backbtn{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 10px; 
+    border-bottom-right-radius: 25px;
+  }
+  .backbtn i {
+    font-size: 2rem;
+  }
+  .PRODUCTOS {
+    border-radius: 15px;
+    height: 22.5rem;
+    margin: 0;
+  }
+    .hernan {
+      padding-top: 5px;
+    }
+    .coscu {
+      padding-top: 10px;
+      padding-left: 2px;
+    }
+    .aquira {
+      margin-top: 8px;
+      margin-left: 3px;
+    }
+    .ikal {
+      margin-top: 8px;
+      margin-left: 3px;
+    }
+  .peluche {
+    margin-left: 20%;
+    margin-top: 10px;
+    padding: 0;
+    width: 18rem;
+    height: 4rem;
+  }
+    .peluche h5 {
+      font-size: large;
+      left: 22%;
+      top: 11%;
+    }
+    .peluche .UN {
+      top: 30px;
+      font-weight: normal;
+      font-size: small;
+    }
+    .peluche .precio {
+      right: 15px;
+      bottom: 0;
+      top: 2.6rem;
+      font-weight: normal;
+      font-size: small;
+    }
+    .peluche i {
+      left: 95%;
+      bottom: 70%;
+      font-size: 2rem;
+    }
+  .PRODUCTOS .titulo {
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 15px;
+  }
+  .PAGO {
+    height: 22.5rem;
+    margin: 0px;
+    padding-top: 15px;
+  }
+  .factor {
+    margin-left: 20%;
+    margin-top: 10px;
+    padding: 4px;
+    width: 18rem;
+  }
+    .factor h6 {
+      font-size: medium;
+      font-weight: bold;
+      padding-top: 4px;
+      padding-left: 5px;
+    }
+  .pagos {
+    margin-left: 20%;
+    margin-top: 15px;
+    padding: 10px;
+    width: 18rem;
+    height: 5rem;
+  }
+  .img {
+    gap: 15px;
+  }
+    .visa {
+      width: 3rem; 
+      height: 1rem; 
+    }
+    .master {
+      width: 3rem; 
+      height: 1.8rem; 
+    }
+    .amex {
+      width: 3rem; 
+      height: 2rem; 
+    }
+    .gana{
+      width: 3.4rem; 
+      height: 1.4rem; 
+    }
+  .comprar {
+    width: 10rem;
+    bottom: 15px;
+    right: 42%;
+  }
+}
+/* Large */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .uno {
+    height: 10rem;
+  }
+  .uno h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  .dos{
+    gap: 10px;
+  }
+  .backbtn{
+    width: 55px; 
+    height: 55px; 
+    border-radius: 10px; 
+    border-bottom-right-radius: 25px;
+  }
+  .backbtn i {
+    font-size: 2.1rem;
+  }
+  .PRODUCTOS {
+    border-radius: 15px;
+    height: 25rem;
+    margin: 0;
+  }
+    .hernan {
+      padding-top: 5px;
+    }
+    .coscu {
+      padding-top: 10px;
+      padding-left: 2px;
+    }
+    .aquira {
+      margin-top: 8px;
+      margin-left: 3px;
+    }
+    .ikal {
+      margin-top: 8px;
+      margin-left: 3px;
+    }
+  .peluche {
+    margin-left: 10%;
+    margin-top: 15px;
+    padding: 0;
+    width: 18rem;
+    height: 4rem;
+  }
+    .peluche h5 {
+      font-size: large;
+      left: 22%;
+      top: 11%;
+    }
+    .peluche .UN {
+      top: 30px;
+      font-weight: normal;
+      font-size: small;
+    }
+    .peluche .precio {
+      right: 15px;
+      bottom: 0;
+      top: 2.6rem;
+      font-weight: normal;
+      font-size: small;
+    }
+    .peluche i {
+      left: 95%;
+      bottom: 70%;
+      font-size: 2rem;
+    }
+  .PRODUCTOS .titulo {
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  .PAGO {
+    height: 23rem;
+    margin: 0px;
+    padding-top: 20px;
+  }
+  .factor {
+    margin-left: 10%;
+    margin-top: 15px;
+    padding: 4px;
+    width: 18rem;
+  }
+    .factor h6 {
+      font-size: medium;
+      font-weight: bold;
+      padding-top: 4px;
+      padding-left: 5px;
+    }
+  .pagos {
+    margin-left: 10%;
+    margin-top: 15px;
+    padding: 10px;
+    width: 18rem;
+    height: 5rem;
+  }
+  .img {
+    gap: 15px;
+  }
+    .visa {
+      width: 3rem; 
+      height: 1rem; 
+    }
+    .master {
+      width: 3rem; 
+      height: 1.8rem; 
+    }
+    .amex {
+      width: 3rem; 
+      height: 2rem; 
+    }
+    .gana{
+      width: 3.4rem; 
+      height: 1.4rem; 
+    }
+  .comprar {
+    width: 10rem;
+    bottom: 15px;
+    right: 20%;
+  }
+}
+/* Extra Large */
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .uno {
+    height: 11.5rem;
+    margin-bottom: 30px;
+  }
+  .uno h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 25px;
+  }
+  .dos{
+    gap: 0px;
+  }
+  .backbtn{
+    width: 70px; 
+    height: 70px; 
+    border-radius: 10px; 
+    border-bottom-right-radius: 35px;
+  }
+  .backbtn i {
+    font-size: 2.5rem;
+  }
+  .PRODUCTOS {
+    border-radius: 15px;
+    height: 28rem;
+    margin: 0;
+  }
+    .hernan {
+      padding-top: 6px;
+    }
+    .coscu {
+      padding-top: 15px;
+      padding-left: 4px;
+    }
+    .aquira {
+      margin-top: 10px;
+      margin-left: 4px;
+    }
+    .ikal {
+      margin-top: 10px;
+      margin-left: 4px;
+    }
+  .peluche {
+    margin-left: 4%;
+    margin-top: 20px;
+    padding: 0;
+    width: 20rem;
+    height: 4.5rem;
+  }
+    .peluche h5 {
+      font-size: larger;
+      left: 20%;
+      top: 12%;
+    }
+    .peluche .UN {
+      top: 40spx;
+      font-weight: normal;
+      font-size: small;
+    }
+    .peluche .precio {
+      right: 15px;
+      bottom: 0;
+      top: 2.6rem;
+      font-weight: normal;
+      font-size: small;
+    }
+    .peluche i {
+      left: 95%;
+      bottom: 70%;
+      font-size: 2rem;
+    }
+  .PRODUCTOS .titulo {
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  .PAGO {
+    height: 23rem;
+    margin: 0px;
+    padding-top: 20px;
+  }
+  .factor {
+    margin-left: 10%;
+    margin-top: 15px;
+    padding: 4px;
+    width: 18rem;
+  }
+    .factor h6 {
+      font-size: medium;
+      font-weight: bold;
+      padding-top: 4px;
+      padding-left: 5px;
+    }
+  .pagos {
+    margin-left: 10%;
+    margin-top: 15px;
+    padding: 15px;
+    width: 18rem;
+    height: 6rem;
+  }
+  .img {
+    gap: 10px;
+  }
+    .visa {
+      width: 3.3rem; 
+      height: 1.2rem; 
+    }
+    .master {
+      width: 3.2rem; 
+      height: 2rem; 
+    }
+    .amex {
+      width: 3.2rem; 
+      height: 2.2rem; 
+    }
+    .gana{
+      width: 3.7rem; 
+      height: 1.6rem; 
+    }
+  .comprar {
+    width: 10rem;
+    bottom: 60px;
+    right: 20%;
+  }
+}
